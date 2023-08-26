@@ -23,53 +23,57 @@ commited/ unmodifies	- snapshot of current state is saved in our vcs(here git)
 
 6. git commit -m "meaningfull message that tell the purpose ot this commit"  ----> commits all the files that has been staged using add command
 
-7. git remote add origin <link>   ----->  here we added the link for remote repository, by default changes will be pushed here, when we clone a 
+7. git reset [file name] -----> unsrtage staged changes, if we add somw file by mistake we can unstage them like this
+
+8. git reset    ------>   undtage all files in staged area
+
+9. git remote add origin <link>   ----->  here we added the link for remote repository, by default changes will be pushed here, when we clone a 
 											project we don't need to dot his step, but when we create a new project from scratch in out local machine, 
 											it does not know the path to the remote repository, "origin" is the name given to the reference. There can be 
 											multiple reomte repository with different names
 
 
-8. git remote -v    ------>  to verify/ check the remote repository
+10. git remote -v    ------>  to verify/ check the remote repository
 
-8. git remote rename origin coco    -----> renames the nickname of remote repository from "origin" to "coco", generally  not recomended
+11. git remote rename origin coco    -----> renames the nickname of remote repository from "origin" to "coco", generally  not recomended
 
-9. git push [origin] [master] ----->   origin is the nick name for the remote branch and master is the the branch to be pushed
+12. git push [origin] [master] ----->   origin is the nick name for the remote branch and master is the the branch to be pushed
 
-10.git push -u [origin] [master]   ----->  in future we need not specify "origin main" over and over again, simply use git push from now on
+13.git push -u [origin] [master]   ----->  in future we need not specify "origin main" over and over again, simply use git push from now on
 
-11. git push   ------>   pushes the current branch source branch of source
+14. git push   ------>   pushes the current branch source branch of source
  
 
 
 
 
 
-10. git branch new [newBranchName]     ------>  creates a new branch out of the current branch u are present on
+15. git branch new [newBranchName]     ------>  creates a new branch out of the current branch u are present on
 
-11. git branch -d/-D [branchToBeDeleted]    ------> deletes the specified branch
+16. git branch -d/-D [branchToBeDeleted]    ------> deletes the specified branch
 
-12. git merge [branch_Name]    -------> does not merge the current branch into its parent branch. Instead, it merges the specified branchName into the current branch.
+17. git merge [branch_Name]    -------> does not merge the current branch into its parent branch. Instead, it merges the specified branchName into the current branch.
 
-13. git [branchName] -m [newBranchName]   ------> renames the branch from "branchName" to "newBranchName"
+18. git [branchName] -m [newBranchName]   ------> renames the branch from "branchName" to "newBranchName"
 
-14. git branch -----> shows all branches for current repository
+19. git branch -----> shows all branches for current repository
 
-15. git branch -a      --------> lists all branch local as well as remote branch
+20. git branch -a      --------> lists all branch local as well as remote branch
 
-16. git branch --merged     --------->  Lists branches that have been merged into the current branch.
+21. git branch --merged     --------->  Lists branches that have been merged into the current branch.
 
-17. git log [branchName]   -------->  Shows the commit history of branchName
+22. git log [branchName]   -------->  Shows the commit history of branchName
 
-18. git cheackout [destination_branch]     ------> change branch
+23. git cheackout [destination_branch]     ------> change branch
 
-19. git checkout -b [newBranch]    ------>  create a new branch and moves to that branch
+24. git checkout -b [newBranch]    ------>  create a new branch and moves to that branch
 
-19. git fetch    -------> Fetches changes from remote repositories, including new branches.
+25. git fetch    -------> Fetches changes from remote repositories, including new branches.
 
-20. git pull    -------> fetch + merge
+26. git pull    -------> fetch + merge
 
-21. git push origin --delete [branchName]     ------> Deletes a remote branch named branchName.
+27. git push origin --delete [branchName]     ------> Deletes a remote branch named branchName.
 
 
 
-22. git diff [branchName]    ------>  comapres current branch to specified branch
+28. git diff [branchName]    ------>  comapres current branch to specified branch
