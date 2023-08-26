@@ -2,4 +2,5 @@
 ###                                 - Author Hari Om
 
 ![Example Image](im.jpg)
-![Example Image 2](im2.jpg)
+<br>
+![Example Image 2](im2.png)
