@@ -1,3 +1,5 @@
+######################    Documentation      #############################
+
 untracked  				- new file
 modified   				- existing file changed
 staged     				- ready to be commited 
