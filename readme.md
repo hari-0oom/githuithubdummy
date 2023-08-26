@@ -1,6 +1,10 @@
 # This my git github documentation
 ###                                 - Author Hari Om
 
-<!-- ![Example Image](im.jpg) -->
-<br>
-![Example Image 2](im2.jpg)
+
+
+![alt](im2.jpg)
+
+![Example Image 2](imm2.jpg)
+
+
