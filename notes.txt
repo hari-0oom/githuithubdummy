@@ -77,3 +77,13 @@ commited/ unmodifies	- snapshot of current state is saved in our vcs(here git)
 
 
 28. git diff [branchName]    ------>  comapres current branch to specified branch
+
+29. git log -----> to se history of commits
+
+30. git reset HEAD~1   ----->  removes last 1 commit, cnage the number according to the number of commits u want to remove
+
+31. git reset [commit hash]  ----->  generally it is hard to remember the sequence of commits but we can recall by looking at their commit
+								messages and we can rollback/ reset to that particular point by using their hash, hash can be found using git looking
+
+32. 
+
