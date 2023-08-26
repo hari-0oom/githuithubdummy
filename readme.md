@@ -1,6 +1,6 @@
 # This my git github documentation
 ###                                 - Author Hari Om
 
-![Example Image](im.jpg)
+<!-- ![Example Image](im.jpg) -->
 <br>
-![Example Image 2](im2.png)
+![Example Image 2](im2.jpg)
